@@ -1,53 +1,91 @@
+@media (max-width: 768px) {
+  /* Styles for mobile devices */
+}
+
 .App{
-  border: 1px solid black;
-  margin: 50px;
-  padding: 25px 15px;
+  padding:  5px 5px 5px 5px;
+  margin:  5px 5px 5px 5px;
+
 }
 .title{
   text-align: center;
 }
-.to-do-container{
-  display: flex;
-  flex-direction: column;
-}
 
-.to-do-container ul li {
-  width: 150px;
-  overflow-wrap: break-word;
-  list-style-type: "🔴";
-  cursor: pointer;
 
-}
-.done{
-  text-decoration: line-through;
-}.App {
-  border: 1px solid #3d3d3d;
-  margin: 50px 30px;
-  padding: 25px 15px;
-}
+
+
+
 
 .to-do-container {
   display: flex;
   flex-direction: column;
 }
 
-.to-do-container ul li {
-  width: 170px;
-  overflow-wrap: break-word;
-  list-style-type: "👉";
-  cursor: pointer;
+
+
+
+
+
+.button-style{
+  height: 50px;
+  font-size: 15px;
+  width: 100px;
+  border-radius: 10px;
+  align-self: center;
+  margin: 10px 10px 10px 10px;
+
+
 }
 
-.done {
-  text-decoration: line-through;
+.input-style{
+  height: 50px;
+  font-size: 15px;
+  border-radius: 10px;
+
 }
 
-.item {
+
+
+
+.card {
+  margin: 5px 5px 5px 5px ;
+  height: 50px;
+  border: 1px solid black;
+  padding: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  overflow-wrap: break-word;
+  background-color: rgb(0, 8, 119);
+  border-radius: 10px;
+  border-color: aliceblue;
+  
+  
+
+
+
 }
 
-.trash {
+.card-text {
+  font-size: 16px;
+  overflow-wrap: break-word;
+}
+
+.card-button {
+  background-color: #00000000;
+  color: #fff;
+  padding: 10px;
+  border: none;
   cursor: pointer;
+}
+
+.card-button-mark {
+  background-color: #00000000;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  
+
+
 }
